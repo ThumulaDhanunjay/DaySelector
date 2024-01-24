@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="section">
+        <form action="#">
+            <input id="settitle" class="setitle" type="text" placeholder="Title">
+            <input id="sedate" type="date" name="date">
+            <br>
+            <br>
+            <input id="setdec" class="sedec" type="text" placeholder="Description">
+            <input class="sesubmit" type="button" value="save" onclick="getUserSelectedDate()">
+        </form>
+        </div>
+        <div id="section1">
+            <input id="sun" class="s1in" type="button" value="sun">
+            <input id="mon" class="s1in" type="button" value="mon">
+            <input id="tue" class="s1in" type="button" value="tue">
+            <input id="wed" class="s1in" type="button" value="wed">
+            <input id="thu" class="s1in" type="button" value="thu">
+            <input id="fri" class="s1in" type="button" value="fri">
+            <input id="sat" class="s1in" type="button" value="sat">
+        </div>
+        <div id="title" class="title1">
+            <h3 id="tit1">The tile</h3>
+            <input class="delete" type="button" value="Delete" onclick="dlt()">
+            <P id="dec1">Sample description</P>
+        </div>
+        
+</body>
+</html>
